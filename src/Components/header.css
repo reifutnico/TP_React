@@ -1,0 +1,30 @@
+/* header.css */
+
+/* Estilos para el header */
+header {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    display: flex; /* Utilizar flexbox */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: space-around; /* Distribuir los elementos uniformemente */
+  }
+  
+  /* Estilos para el título */
+  .titulo {
+    font-size: 24px; /* Tamaño de fuente */
+    font-weight: bold; /* Peso de la fuente */
+  }
+  
+  /* Estilos para los enlaces */
+  .link {
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado */
+    margin-left: 10px; /* Margen izquierdo */
+  }
+  
+  .link:first-child {
+    margin-left: 0; /* Eliminar margen izquierdo para el primer enlace */
+  }
+  

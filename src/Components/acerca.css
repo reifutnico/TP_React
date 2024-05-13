@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Color de fondo */
+  }
+  
+  .contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px; /* Máximo ancho del contenido */
+  }
+  
+  .foto {
+    flex: 1; /* La foto ocupa la mitad del ancho */
+    padding: 0 10px; /* Espacio alrededor de la foto */
+  }
+  
+  .foto img {
+    width: 100%;
+    border-radius: 10px; /* Borde redondeado para la foto */
+  }
+  
+  .texto {
+    flex: 1; /* El texto ocupa la otra mitad del ancho */
+    padding: 0 10px; /* Espacio alrededor del texto */
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .texto h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007bff; /* Color del título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra suave para el título */
+  }
+  
+  .texto p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  

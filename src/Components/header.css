@@ -18,12 +18,23 @@ header {
   }
   
   /* Estilos para los enlaces */
-  .link {
-    color: #fff; /* Color del texto */
-    text-decoration: none; /* Quitar subrayado */
-    margin-left: 10px; /* Margen izquierdo */
-  }
-  
+/* header.css */
+
+.link {
+  margin: 0 10px; /* Ajusta el espaciado entre los enlaces según tu preferencia */
+}
+
+.link a {
+  text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
+  color: #ffffff; /* Color del texto del enlace */
+  font-size: 16px; /* Tamaño del texto del enlace */
+  font-weight: bold; /* Peso de la fuente del enlace */
+}
+
+.link a:hover {
+  color: #007bff; /* Cambia el color del texto cuando el cursor se sitúa sobre el enlace */
+}
+
   .link:first-child {
     margin-left: 0; /* Eliminar margen izquierdo para el primer enlace */
   }

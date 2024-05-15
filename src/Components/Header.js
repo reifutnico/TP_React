@@ -9,9 +9,9 @@ const Header = () => {
   return (
     <header>
         <TituloComponent/> {}
-        <LinkComponent texto="Acerca de mí" destino="href/#AcercaDeMi" />
-        <LinkComponent texto="No tengo mas miedo de ocultarlo" destino="href/#AcercaDeMi" />
-        <LinkComponent texto="Mi fin" destino="href/#AcercaDeMi" />
+        <LinkComponent texto="Acerca de nosotros" destino="#AcercaDeMi" />
+        <LinkComponent texto="Becherman" destino="#Becher" />
+        <LinkComponent texto="Reifut" destino="#Reifut" />
     </header>
   );
 }

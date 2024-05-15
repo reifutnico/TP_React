@@ -1,14 +1,10 @@
 import React from 'react';
-import FotoComponent from './foto';
-import MiFoto from '../vendor/becherReifut.jpg'; 
 import './acerca.css'; 
 
 
-function Acerca() {
+function Becher() {
   return (
-    <div className='container' id="AcercaDeMi">
-      <FotoComponent Foto={MiFoto} />
-
+    <div className='container' id="Becher">
       <div className="texto">
         <h2>Acerca de nosotros</h2>
         <p>
@@ -22,4 +18,4 @@ function Acerca() {
   );
 }
 
-export default Acerca;
+export default Becher;

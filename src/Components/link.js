@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 const link = (props) => {
-  return (
-    <div className='link'>{props.texto}</div>
-  )
+  return (<div className='link'>{<a href={props.destino}>{props.texto}</a>}</div>
+  );
 }
 
-export default link
+export default link;
+

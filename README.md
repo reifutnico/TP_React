@@ -70,3 +70,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 "# TP_React"  git init git add README.md git commit -m "first commit" git branch -M main git remote add origin https://github.com/reifutnico/TP_React.git git push -u origin main
 "# TP_React" 
+"# TP_React" 

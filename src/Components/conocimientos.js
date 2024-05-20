@@ -1,22 +1,31 @@
-import React from 'react';
-import './conocimientos.css'; 
+import React from "react";
+import "./conocimientos.css";
 
-
-function Becher() {
+function Conocimientos() {
   return (
-    <div className='container' id="Conocimientos">
+    <div className="container libros" id="Conocimientos">
       <div className="texto">
-        <h2>Becher</h2>
-        <p>
-          Soy Nicolas Becherman, soy estudiante de ort. Disfruto mucho jugar a la pelota con mis amigos y programar. Voy al club los fines de semana.
-        </p>
-        
+        <h2>Conocimientos</h2>
+        <div className="libros">
+          <div class="book">
+            <p className="textoLibro">
+              Estudie c# en el secundario ORT, aprendiendo atraves de este
+              lenguaje las bases de la programacion.
+            </p>
+            <div class="cover">
+              <p>c#</p>
+            </div>
+          </div>
+          <div class="book">
+            <p className="textoLibro">Estudie javaScript en el secundario.</p>
+            <div class="cover">
+              <p>javaScript</p>
+            </div>
+          </div>
+        </div>
       </div>
-      
-
     </div>
-
   );
 }
 
-export default Becher;
+export default Conocimientos;

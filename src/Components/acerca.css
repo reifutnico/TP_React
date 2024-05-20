@@ -1,44 +1,63 @@
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0; /* Color de fondo */
-  }
-  
-  .contenido {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 800px; /* Máximo ancho del contenido */
-  }
-  
-  .foto {
-    flex: 1; /* La foto ocupa la mitad del ancho */
-    padding: 0 10px; /* Espacio alrededor de la foto */
-  }
-  
-  .foto img {
-    width: 50%;
-    border-radius: 10px; /* Borde redondeado para la foto */
-  }
-  
-  .texto {
-    flex: 1; /* El texto ocupa la otra mitad del ancho */
-    padding: 0 10px; /* Espacio alrededor del texto */
-    font-family: Arial, sans-serif;
-    color: #333;
-  }
-  
-  .texto h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #007bff; /* Color del título */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra suave para el título */
-  }
-  
-  .texto p {
-    font-size: 16px;
-    line-height: 1.6;
-  }
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0099ff; /* Color de fondo */
+  position: relative; /* Asegura que el contenedor pueda posicionar elementos relativos */
+}
+
+.contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px; /* Máximo ancho del contenido */
+  background-color: #fff; /* Fondo blanco para el contenido */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px; /* Espacio interno */
+  z-index: 1; /* Asegura que el contenido esté por encima del SVG */
+  margin-bottom: 0px; /* Ajusta el espacio debajo de la tarjeta */
+}
+
+.foto {
+  flex: 1; /* La foto ocupa la mitad del ancho */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px; /* Espacio alrededor de la foto */
+}
+
+.foto img {
+  width: 100%; /* Ancho completo dentro del contenedor flex */
+  max-width: 200px; /* Máximo ancho de la foto */
+  border-radius: 10px; /* Borde redondeado para la foto */
+}
+
+.texto {
+  flex: 1; /* El texto ocupa la otra mitad del ancho */
+  padding: 0 10px; /* Espacio alrededor del texto */
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.texto h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #007bff; /* Color del título */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra suave para el título */
+}
+
+.texto p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.olas {
+  width: 100%;
+  bottom: 0; /* Posiciona el SVG en la parte inferior del contenedor */
+  z-index: 0; /* Asegura que el SVG esté debajo del contenido */
+  pointer-events: none; /* Permite que los elementos de arriba sean clicables */
+}
+
   

@@ -14,7 +14,7 @@ const Header = () => {
         <LinkComponent texto="Acerca de Mi" destino="#AcercaDeMi" />
         <LinkComponent texto="Conocimientos" destino="#Conocimientos" />
         <LinkComponent texto="Experiencia" destino="#Experiencia" />
-        <LinkComponent texto="Educación" destino="#Educación" />
+        <LinkComponent texto="Educación" destino="#Educacion" />
         <LinkComponent texto="Contacto" destino="#Contacto" />
 
     </header>

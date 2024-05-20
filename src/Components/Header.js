@@ -7,11 +7,16 @@ import './header.css';
 
 const Header = () => {
   return (
+    
     <header>
+
         <TituloComponent/> {}
-        <LinkComponent texto="Acerca de nosotros" destino="#AcercaDeMi" />
-        <LinkComponent texto="Becherman" destino="#Becher" />
-        <LinkComponent texto="Reifut" destino="#Reifut" />
+        <LinkComponent texto="Acerca de Mi" destino="#AcercaDeMi" />
+        <LinkComponent texto="Conocimientos" destino="#Conocimientos" />
+        <LinkComponent texto="Experiencia" destino="#Experiencia" />
+        <LinkComponent texto="Educación" destino="#Educación" />
+        <LinkComponent texto="Contacto" destino="#Contacto" />
+
     </header>
   );
 }

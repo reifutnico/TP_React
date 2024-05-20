@@ -1,6 +1,6 @@
 import React from 'react';
 import FotoComponent from './foto';
-import MiFoto from '../vendor/becherReifut.jpg'; 
+import MiFoto from '../vendor/saludando.png'; 
 import './acerca.css'; 
 
 
@@ -10,14 +10,15 @@ function Acerca() {
       <FotoComponent Foto={MiFoto} />
 
       <div className="texto">
-        <h2>Acerca de nosotros</h2>
+        <h2>Acerca de mi</h2>
         <p>
-          ¡Hola! Somos Nicolas (Becherman y Reifut), apasionados de React y somos los mejores compañeros de trabajo. Nos encanta programar. 
-          En nuestro tiempo libre, disfrutamos hacer actividades adicionales o pasatiempos. Siempre estamos buscando nuevas experiencias y aprendizajes.
+          ...
         </p>
+
       </div>
 
     </div>
+    
     
   );
 }

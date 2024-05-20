@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './Components/Header';
 import Acerca from './Components/Acerca';
-import Becher from './Components/Becher';
+import Conocimientos from './Components/conocimientos';
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <>
     <Header/>
     <Acerca/>
-    <Becher/>
+    <Conocimientos/>
 
 
     </>

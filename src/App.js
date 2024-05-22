@@ -15,11 +15,15 @@ function App() {
     <>
     <Header/>
     <Acerca/>
-    <Olas/>
+    <Olas color="#0099ff" fondo="blanco"/>
     <Conocimientos/>
+    <Olas color="#fff" fondo="azul"/>
     <Experiencia/>
+    <Olas color="#0099ff" fondo="blanco"/>
     <Educacion/>
+    <Olas color="#fff" fondo="azul"/>
     <Contacto/>
+    <Olas color="#fff" fondo="azul"/>
 
 
 

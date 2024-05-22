@@ -7,9 +7,20 @@ function Experiencia() {
     <div className='container' id="Experiencia">
       <div className="texto">
         <h2>Experiencia</h2>
-        <p>
-          Soy Nicolas Becherman, soy estudiante de ort. Disfruto mucho jugar a la pelota con mis amigos y programar. Voy al club los fines de semana.
-        </p>
+        <div class="cards">
+    <div class="card red">
+        <p class="tip">Hover Me</p>
+        <p class="second-text">Lorem Ipsum</p>
+    </div>
+    <div class="card blue">
+        <p class="tip">Hover Me</p>
+        <p class="second-text">Lorem Ipsum</p>
+    </div>
+    <div class="card green">
+        <p class="tip">Hover Me</p>
+        <p class="second-text">Lorem Ipsum</p>
+    </div>
+</div>
         
       </div>
       

@@ -1,41 +1,39 @@
-/* header.css */
 
-/* Estilos para el header */
+
 header {
-    background-color: #333; /* Color de fondo */
-    color: #fff; /* Color del texto */
-    padding: 20px; /* Espaciado interno */
-    text-align: center; /* Alineación del texto */
-    display: flex; /* Utilizar flexbox */
-    align-items: center; /* Centrar verticalmente */
-    justify-content: space-around; /* Distribuir los elementos uniformemente */
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
   }
   
-  /* Estilos para el título */
+  
   .titulo {
-    font-size: 24px; /* Tamaño de fuente */
-    font-weight: bold; /* Peso de la fuente */
+    font-size: 24px; 
+    font-weight: bold;
   }
   
-  /* Estilos para los enlaces */
-/* header.css */
+ 
 
 .link {
-  margin: 0 10px; /* Ajusta el espaciado entre los enlaces según tu preferencia */
+  margin: 0 10px; 
 }
 
 .link a {
-  text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
-  color: #ffffff; /* Color del texto del enlace */
-  font-size: 16px; /* Tamaño del texto del enlace */
-  font-weight: bold; /* Peso de la fuente del enlace */
+  text-decoration: none; 
+  color: #ffffff; 
+  font-size: 16px; 
+  font-weight: bold; 
 }
 
 .link a:hover {
-  color: #007bff; /* Cambia el color del texto cuando el cursor se sitúa sobre el enlace */
+  color: #007bff;
 }
 
   .link:first-child {
-    margin-left: 0; /* Eliminar margen izquierdo para el primer enlace */
+    margin-left: 0; 
   }
   

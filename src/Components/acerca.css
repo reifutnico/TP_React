@@ -3,40 +3,40 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #0099ff; /* Color de fondo */
-  position: relative; /* Asegura que el contenedor pueda posicionar elementos relativos */
+  background-color: #0099ff; 
+  position: relative; 
 }
 
 .contenido {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 800px; /* Máximo ancho del contenido */
-  background-color: #fff; /* Fondo blanco para el contenido */
-  border-radius: 10px; /* Bordes redondeados */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-  padding: 20px; /* Espacio interno */
-  z-index: 1; /* Asegura que el contenido esté por encima del SVG */
-  margin-bottom: 0px; /* Ajusta el espacio debajo de la tarjeta */
+  max-width: 800px; 
+  background-color: #fff; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 20px; 
+  z-index: 1; 
+  margin-bottom: 0px; 
 }
 
 .foto {
-  flex: 1; /* La foto ocupa la mitad del ancho */
+  flex: 1; 
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 10px; /* Espacio alrededor de la foto */
+  padding: 0 10px; 
 }
 
 .foto img {
-  width: 100%; /* Ancho completo dentro del contenedor flex */
-  max-width: 200px; /* Máximo ancho de la foto */
-  border-radius: 10px; /* Borde redondeado para la foto */
+  width: 100%; 
+  max-width: 200px; 
+  border-radius: 10px; 
 }
 
 .texto {
-  flex: 1; /* El texto ocupa la otra mitad del ancho */
-  padding: 0 10px; /* Espacio alrededor del texto */
+  flex: 1; 
+  padding: 0 10px; 
   font-family: Arial, sans-serif;
   color: #333;
 }
@@ -44,8 +44,8 @@
 .texto h2 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: #007bff; /* Color del título */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra suave para el título */
+  color: #007bff; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
 }
 
 .texto p {
@@ -55,9 +55,9 @@
 
 .olas {
   width: 100%;
-  bottom: 0; /* Posiciona el SVG en la parte inferior del contenedor */
-  z-index: 0; /* Asegura que el SVG esté debajo del contenido */
-  pointer-events: none; /* Permite que los elementos de arriba sean clicables */
+  bottom: 0; 
+  z-index: 0; 
+  pointer-events: none; 
 }
 
   

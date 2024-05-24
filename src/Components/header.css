@@ -1,22 +1,20 @@
-
-
 header {
-    background-color: #333; 
-    color: #fff; 
-    padding: 20px; 
-    text-align: center; 
-    display: flex;
-    align-items: center; 
-    justify-content: space-around;
-  }
-  
-  
-  .titulo {
-    font-size: 24px; 
-    font-weight: bold;
-  }
-  
- 
+  background-color: #333; 
+  color: #fff; 
+  padding: 20px; 
+  text-align: center; 
+  display: flex;
+  align-items: center; 
+  justify-content: space-around;
+  position: sticky; 
+  top: 0; 
+  z-index: 1000; 
+}
+
+.titulo {
+  font-size: 24px; 
+  font-weight: bold;
+}
 
 .link {
   margin: 0 10px; 
@@ -33,7 +31,7 @@ header {
   color: #007bff;
 }
 
-  .link:first-child {
-    margin-left: 0; 
-  }
+.link:first-child {
+  margin-left: 0; 
+}
   

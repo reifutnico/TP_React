@@ -1,3 +1,19 @@
+/* Other existing CSS */
+
+#Experiencia {
+  background-color: #0099ff; /* Your desired blue color */
+}
+
+.textoBlanco {
+  text-align: center; /* Center text within the .textoBlanco container */
+}
+
+.textoBlanco h2 {
+  color: #fff;
+  margin: 0; /* Remove default margins */
+  padding: 20px 0; /* Optional: Add padding for spacing */
+}
+
 .cards {
   display: flex; /* Already set for horizontal arrangement */
   flex-wrap: nowrap; /* Prevent wrapping to multiple lines */
@@ -54,22 +70,17 @@
   flex-wrap: wrap; /* Allow wrapping to multiple lines if needed */
   gap: 15px;
 }
-#Experiencia {
-  background-color: #0099ff; /* Your desired blue color */
-}
-
-.textoBlanco h2 {
-  color: #fff;
-}
 
 .section-class {
   margin: 0;
   padding: 0;
 }
+
 .parent-container {
   display: flex; /* Or display: grid; */
   gap: 0;
 }
+
 .body {
   background-color: #0099ff;
 }

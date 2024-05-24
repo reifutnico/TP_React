@@ -1,101 +1,132 @@
 .containerContacto {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
-  background-color: #0099ff; /* Asegura que el fondo esté bien definido */
-}
-
-.textoContacto {
+  background-color: #0099ff; /* Matching background color */
+  padding: 40px 20px; /* Adjust padding for spacing */
   text-align: center;
-  margin-bottom: 2em;
-}
-
-.form-card1 {
-  background-image: linear-gradient(163deg, #64ffda 0%, #64ffda 100%);
-  border-radius: 22px;
-  transition: all 0.3s;
-  width: 100%; /* Ajusta según sea necesario */
-  max-width: 600px; /* Limita el ancho máximo de la tarjeta */
-  padding: 1em; /* Añade un poco de padding para la tarjeta */
-}
-
-.form-card1:hover {
-  box-shadow: 0px 0px 30px 1px rgba(100, 255, 218, 0.3);
-}
-
-.form-card2 {
-  border-radius: 0;
-  transition: all 0.2s;
-}
-
-.form-card2:hover {
-  transform: scale(0.98);
-  border-radius: 20px;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centra el contenido de la tarjeta horizontalmente */
-  font-family: inherit;
-  gap: 10px;
-  padding-inline: 2em;
-  padding-bottom: 0.4em;
-  background-color: #171717;
-  border-radius: 20px;
-}
-
-.form-heading {
-  text-align: center;
-  margin: 2em;
-  color: #64ffda;
-  font-size: 1.2em;
-  background-color: transparent;
-  align-self: center;
-}
-
-.form-field {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5em;
-  border-radius: 10px;
-  padding: 0.6em;
-  border: none;
-  outline: none;
   color: white;
-  background-color: #171717;
-  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
 }
 
-.input-field {
-  background: none;
-  border: none;
-  outline: none;
-  width: 100%;
-  color: #ccd6f6;
-  padding-inline: 1em;
+.textoContacto h2 {
+  margin-bottom: 20px;
 }
 
-.sendMessage-btn {
-  cursor: pointer;
-  margin-bottom: 3em;
-  padding: 1em;
+.contactForm {
+  background-color: whitesmoke;
+  padding: 20px;
   border-radius: 10px;
-  border: none;
-  outline: none;
-  background-color: transparent;
-  color: #64ffda;
-  font-weight: bold;
-  outline: 1px solid #64ffda;
-  transition: all ease-in-out 0.3s;
+  box-shadow: 1px 1px 12px #000;
+  max-width: 500px;
+  margin: 0 auto; /* Center the form */
+  color: #000;
 }
 
-.sendMessage-btn:hover {
-  transition: all ease-in-out 0.3s;
-  background-color: #64ffda;
-  color: #64ffda;
+.formGroup {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.submitButton {
+  background-color: #0099ff; /* Matching button color from previous sections */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
-  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #0099ff; /* Slightly darker green on hover */
+}
+
+/* Container for the entire Contacto section */
+.containerContacto {
+  background-color: #0099ff; /* Blue background color */
+  padding: 40px 20px; /* Spacing around the container */
+  text-align: center; /* Center align text */
+  color: white; /* White text color */
+}
+
+/* Header styling */
+.textoContacto h2 {
+  font-size: 2.5em; /* Larger font size */
+  margin-bottom: 20px; /* Space below the header */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
+}
+
+/* Form styling */
+.contactForm {
+  background: linear-gradient(to right, #ffffff, #f0f0f0); /* Gradient background */
+  padding: 30px; /* Space inside the form */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  max-width: 600px; /* Max width for the form */
+  margin: 0 auto; /* Center the form horizontally */
+  color: #333; /* Darker text color */
+}
+
+/* Form group styling */
+.formGroup {
+  margin-bottom: 20px; /* Space between form groups */
+  text-align: left; /* Left align text */
+}
+
+/* Label styling */
+.formGroup label {
+  display: block; /* Block display for labels */
+  margin-bottom: 8px; /* Space below labels */
+  font-weight: bold; /* Bold text */
+  font-size: 1.1em; /* Slightly larger font size */
+}
+
+/* Input and textarea styling */
+.formGroup input,
+.formGroup textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Inner padding */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  font-size: 1em; /* Font size */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Transition effects */
+}
+
+/* Focus effect for inputs and textarea */
+.formGroup input:focus,
+.formGroup textarea:focus {
+  border-color: #0099ff; /* Blue border on focus */
+  box-shadow: 0 0 8px rgba(0, 153, 255, 0.3); /* Blue shadow on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Submit button styling */
+.submitButton {
+  background-color: #22c55e; /* Green background */
+  color: white; /* White text */
+  padding: 12px 24px; /* Padding inside the button */
+  border: none; /* No border */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  font-size: 1.1em; /* Slightly larger font size */
+  transition: background-color 0.3s, transform 0.3s; /* Transition effects */
+}
+
+/* Hover effect for submit button */
+.submitButton:hover {
+  background-color: #16a34a; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
 }

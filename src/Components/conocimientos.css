@@ -3,6 +3,7 @@
   flex-wrap: wrap; /* Allow wrapping to multiple lines if needed */
   align-items: flex-start; /* Align items vertically to the top */
   justify-content: space-around; /* Distribute space evenly around books */
+  margin-bottom: 0px;
 }
 
 .book {

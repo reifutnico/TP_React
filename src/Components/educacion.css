@@ -1,0 +1,54 @@
+#Educacion {
+    background-color: #fff; /* Matching background color */
+    padding: 20px 0; /* Reduced padding for a more compact look */
+  }
+  
+  .texto {
+    text-align: center; /* Center the text within the .texto container */
+    color: #0099ff;
+  }
+  
+  .cards {
+    display: flex; /* Use flexbox for the container */
+    flex-wrap: wrap; /* Allow wrapping to multiple lines if needed */
+    justify-content: space-around; /* Distribute space evenly around cards */
+    padding: 10px; /* Reduced padding for a compact layout */
+  }
+  
+  .card {
+    /* Styles for card formatting */
+    position: relative;
+    border-radius: 10px;
+    width: 220px; /* Same width as books for consistency */
+    min-height: 200px; /* Adjust height */
+    background-color: #0099ff;
+    box-shadow: 1px 1px 12px #0099ff;
+    margin: 10px; /* Adjust spacing between cards */
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .p .descripcion
+  {
+    color: #0099ff;
+  }
+  
+  .institucion {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .descripcion {
+    font-size: 1em;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+  }
